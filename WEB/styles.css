@@ -23,6 +23,24 @@ a:visited{
     gap: 40px;
     color: aliceblue;
 }
+.first {
+    display: flex;
+    justify-content: center;
+}
+.foto-cadiz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.first-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.first-header,
+p{
+    display: flex;
+}
 .header {
     color: #f9faf8;
     font-size: 24px;
