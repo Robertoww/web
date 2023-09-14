@@ -108,7 +108,7 @@ img {
     gap: 60px;
     display: flex;
     background-color: #e5e7eb;
-    padding: 30px;
+    padding: 90px;
     padding-top: 100px;
 }
 
@@ -127,7 +127,11 @@ img {
     padding: 20px;
 }
 .parte4 {
-    padding: 50px;
+    
+    padding-bottom: 90px;
+    padding-top: 90px;
+    padding-left: 250px;
+    padding-right: 250px;
     display: flex 1 1 0;
     background-color: #f9faf8;
     justify-content: center;
@@ -170,5 +174,6 @@ img {
     justify-content: center;
 }
 .footertext{
+    padding: 10px;
     color: #e5e7eb;
 }
