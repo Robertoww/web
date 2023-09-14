@@ -3,46 +3,44 @@
 
 * {
     box-sizing: border-box;
-    background-color: #1f2937;
     text-decoration: none;
     list-style-type: none;
 }
+
 body {
     display: flex;
     flex-direction: column;
+    background-color: #1f2937;
 }
-a:visited{
+
+a:visited {
     color: #f9faf8;
+}
+.header{
+    gap: 450px;
+    color: #f9faf8;
+    font-size: 24px;
 }
 .header,
 .logo,
 .links {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 40px;
     color: aliceblue;
 }
-.first {
-    display: flex;
-    justify-content: center;
+.links{
+    gap: 15px;
+    margin-top: 20px;
 }
-.foto-cadiz {
+
+.first-container {
+
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    gap: 100px;
+    align-self: center;
+
 }
-.first-container{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-.first-header,
-p{
-    display: flex;
-}
-.header {
-    color: #f9faf8;
-    font-size: 24px;
-    
+
+.first-container .izq {
+    width: 470px;
+    padding-bottom: 100px;
 }
