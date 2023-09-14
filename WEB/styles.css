@@ -50,11 +50,15 @@ img {
 .header,
 .logo,
 .links {
+    justify-content: center;
+    align-items: baseline;
     display: flex;
-    color: aliceblue;
 }
 
+
 .links {
+    font-size: 18px;
+    color: #e5e7eb;
     gap: 15px;
     margin-top: 50px;
     margin-bottom: 50px;
