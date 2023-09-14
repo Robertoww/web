@@ -42,7 +42,11 @@ button {
     border: none;
     padding: 5px;
     display: flex;
+    border-top: 10px;
 
+}
+.hola {
+    padding: 10px;
 }
 img {
     border: 5px solid #1f2937;
@@ -77,6 +81,7 @@ img {
 .first-container .izq {
     width: 470px;
     padding-bottom: 100px;
+    gap: 20px;
 }
 
 .titulo {
