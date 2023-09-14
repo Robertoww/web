@@ -125,3 +125,29 @@ img {
 .text{
     padding: 20px;
 }
+.parte4 {
+    padding: 100px;
+    display: flex;
+    background-color: #f9faf8;
+    justify-content: center;
+}
+.recuadro{
+    padding: 150px;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    display: flex;
+    gap: 100px  ;
+    border-radius: 10px;
+}
+.cajab{
+   
+    justify-content: center;
+}
+.cajaA{
+    display: flex;
+    align-items: flex-end;
+}
+#botonasul{ 
+    color: #1f2937;
+    background-color: #e5e7eb;
+}
