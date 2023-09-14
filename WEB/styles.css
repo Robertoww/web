@@ -5,6 +5,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style-type: none;
+    margin: 0 ;
 }
 
 body {
@@ -126,28 +127,48 @@ img {
     padding: 20px;
 }
 .parte4 {
-    padding: 100px;
-    display: flex;
+    padding: 50px;
+    display: flex 1 1 0;
     background-color: #f9faf8;
     justify-content: center;
+  
 }
 .recuadro{
-    padding: 150px;
+    padding: 50px;
     color: #e5e7eb;
     background-color: #3882f6;
     display: flex;
-    gap: 100px  ;
-    border-radius: 10px;
+    gap: 400px;
+    border-radius: 5px;
+    margin-right: 30px;
+    margin-left: 30px;
 }
 .cajab{
-   
+    display: flex;
     justify-content: center;
+    flex-direction: column;
+    margin-left: 90px;
+    
+    
 }
 .cajaA{
+    gap: 20px   ;
     display: flex;
     align-items: flex-end;
 }
 #botonasul{ 
     color: #1f2937;
     background-color: #e5e7eb;
+}
+.texto-izquierda{
+    font-weight: bold;
+    font-family: italic;
+    font-size: 24px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+}
+.footertext{
+    color: #e5e7eb;
 }
